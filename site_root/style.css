@@ -1,0 +1,100 @@
+body{
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: arial;
+	color: gray;
+}
+
+div#container {
+  margin: 0 auto;
+  width: 760px;
+}
+
+div#header{
+	width: 760px;
+	height: 166px;
+	background: url(img/header_bg.png);
+}
+
+div#body-content{
+	width: 760px;
+	height: 672px;
+	background: url(img/body_bg.png);
+}
+
+div#content{
+	width: 425px;
+	height: 385px;
+	float: left;
+	margin-top: 170px;
+	margin-left: 55px;
+}
+
+div#content h3{
+	color: #5da346;
+}
+
+div#leftnav{
+	width: 220px;
+	height: 672px;
+	padding-left: 7px;
+	float: left;
+}
+
+#leftnav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#leftnav_home{
+	background: url(img/home.png);
+	width: 213px;
+	height: 82px;
+}
+
+#leftnav_about_dan{
+	background: url(img/about_dan.png);
+	width: 213px;
+	height: 72px;
+}
+
+#leftnav_mission_statement{
+	background: url(img/mission_statement.png);
+	width: 213px;
+	height: 80px;
+}
+
+#leftnav_scholarship{
+	background: url(img/scholarship.png);
+	width: 213px;
+	height: 68px;
+}
+
+#leftnav_articles{
+	background: url(img/articles.png);
+	width: 213px;
+	height: 82px;
+}
+
+#leftnav_pictures{
+	background: url(img/pictures.png);
+	width: 213px;
+	height: 69px;
+}
+
+#leftnav_guestbook{
+	background: url(img/guestbook.png);
+	width: 213px;
+	height: 88px;
+}
+
+img {
+	border:0px;
+}
+
+p a img{
+	padding-left:8px;
+	width:125px;
+	height:138px;
+}
