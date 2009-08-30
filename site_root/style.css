@@ -1,3 +1,23 @@
+{
+	margin:0;
+	padding:0;
+}
+
+a:link {
+	text-decoration: none;
+	color: gray;
+}
+
+a:visited {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	text-decoration: none;
+	color: gray;
+}
+
 body{
 	background-repeat: no-repeat;
 	text-align: center;
@@ -48,45 +68,94 @@ div#leftnav{
 }
 
 #leftnav_home{
-	background: url(img/home.png);
 	width: 213px;
 	height: 82px;
 }
 
+#leftnav_home a{
+	background: url(img/home.png);
+	width: 213px;
+	height: 82px;
+	display:block !important; 
+	display:inline-block; 
+}
+
 #leftnav_about_dan{
-	background: url(img/about_dan.png);
 	width: 213px;
 	height: 72px;
 }
 
+#leftnav_about_dan a{
+	background: url(img/about_dan.png);
+	width: 213px;
+	height: 72px;
+	display:block !important; 
+	display:inline-block;
+}
+
 #leftnav_mission_statement{
-	background: url(img/mission_statement.png);
 	width: 213px;
 	height: 80px;
 }
 
+#leftnav_mission_statement a{
+	background: url(img/mission_statement.png);
+	width: 213px;
+	height: 80px;
+	display:block !important; 
+	display:inline-block;
+}
+
 #leftnav_scholarship{
-	background: url(img/scholarship.png);
 	width: 213px;
 	height: 68px;
 }
 
+#leftnav_scholarship a{
+	background: url(img/scholarship.png);
+	width: 213px;
+	height: 68px;
+	display:block !important; 
+	display:inline-block;
+}
+
 #leftnav_articles{
-	background: url(img/articles.png);
 	width: 213px;
 	height: 82px;
 }
 
+#leftnav_articles a{
+	background: url(img/articles.png);
+	width: 213px;
+	height: 82px;
+	display:block !important; 
+	display:inline-block;
+}
+
 #leftnav_pictures{
-	background: url(img/pictures.png);
 	width: 213px;
 	height: 69px;
 }
 
+#leftnav_pictures a{
+	background: url(img/pictures.png);
+	width: 213px;
+	height: 69px;
+	display:block !important; 
+	display:inline-block;
+}
+
 #leftnav_guestbook{
-	background: url(img/guestbook.png);
 	width: 213px;
 	height: 88px;
+}
+
+#leftnav_guestbook a{
+	background: url(img/guestbook.png);	
+	width: 213px;
+	height: 88px;
+	display:block !important; 
+	display:inline-block;
 }
 
 img {
